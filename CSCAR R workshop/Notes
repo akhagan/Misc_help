@@ -1,0 +1,19 @@
+Data Analysis w. R workshop: 2018/02/21
+
+- slides available at: m-clark.github.io
+
+- One of the main points of an R project is that it sets your working directory for you. 
+
+- two main types of vectors: lists & atomic
+  - all elements of an atomic vector are the same type (e.g., logical, numeric)
+  - matrix requires that all vecotrs be of the same data type (e.g., numeric)
+  - lists can take any type of element
+  
+- often treat dataframes as a matrix, but they are actually lists b/c each column can be a different type
+- possible to have row names as an identifier but it's better to have an id column b/c some packages will strip row names
+- Data Structure exercises
+
+- [] grabs a slice of elements/columns
+-[[]] grab specific element/column (same as $)
+- @, similar to $ but used for s4 objects
+
